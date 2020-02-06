@@ -1,0 +1,23 @@
+
+
+plugins {
+    id 'java'
+}
+
+repositories {
+    jcenter()
+}
+
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+version = '1.2.1'
+
+test {
+    useJUnit()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    compile 'commons-io:commons-io:2.5'
+}
