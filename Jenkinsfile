@@ -6,6 +6,9 @@ pipeline {
             label 'java'
         }
     }
+    tools {
+        gradle 'gradle-6.0.1'
+    }
     stages {
         stage('Clean workspace') {
             steps {
