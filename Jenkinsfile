@@ -8,6 +8,7 @@ pipeline {
     }
     tools {
         gradle 'gradle-6.0.1'
+        jdk 'jdk-11'
     }
     stages {
         stage('Clean workspace') {
