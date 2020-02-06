@@ -30,7 +30,7 @@ pipeline {
         stage('test') {
             steps {
                 script {
-                    sh "./gradle build test"
+                    sh "gradle build test"
                 }
             }
         }
